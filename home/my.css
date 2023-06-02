@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container-full{
+    width: 100%;
+    margin: auto;
+}
 .container-fluit{
     width: 90%;
     margin: auto;
@@ -159,6 +163,9 @@
 /**** widht end height ********/
 .w_50{
     max-width: 50%;
+}
+.w_100{
+    max-width: 100%;
 }
 .h_50{
     max-height: 50%;
