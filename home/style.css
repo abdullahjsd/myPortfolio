@@ -8,7 +8,20 @@
     display: none;
     font-size: 1.4rem;
 }
- 
+.navSmall{
+    display: none;
+}
+.item{
+    margin-top: 1rem;
+}
+.item:hover{
+    text-decoration: underline;
+}
+.item span a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
 .nav_a a{
     display: inline-block;
     text-decoration: none;
