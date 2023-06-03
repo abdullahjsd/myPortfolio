@@ -167,6 +167,9 @@
 .w_100{
     max-width: 100%;
 }
+.vh_100{
+    max-width: 100vh;
+}
 .h_50{
     max-height: 50%;
 }
