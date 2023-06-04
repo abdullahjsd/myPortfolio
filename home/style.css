@@ -60,9 +60,18 @@
  
 /***********************************/
 /**********************************/
-.bg_img{
-    width: 800px;
-    height: 600px;
+ .row_right{
+    width: 50%;
+ }
+.row_left img{
+    width: 390px;
+}
+.stil{
+    text-indent: 25px;
+    line-height: 1.5;
+}
+.row_right strong:hover ,strong a:hover{
+    color: aqua;
 }
 
 
@@ -70,10 +79,51 @@
 
 
 
+@media only screen and (max-width: 1200px) {
+    .row_right{
+        padding: 2rem;
+    }
+    .row_left img{
+        width: 290px;
+    }
+}
 
-
-
-
+@media only screen and (max-width: 1000px) {
+    .row_right{
+        padding: 2rem 0;
+    }
+    .row_left img{
+        width: 290px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .row_right{
+        padding:2rem 0 ;
+    }
+    .row_right p{
+        line-height: 1.1;
+    }
+    .row_left img{
+        width: 230px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .row{
+        width: 80%;
+        display: block;
+        margin: auto;
+        background-color: aqua;
+        
+    }
+    .row_right {
+        width: 100%;
+        background-color: black;
+    }
+    .row_left img{
+        text-align: center;
+    }
+  
+}
  
 
 

@@ -95,6 +95,24 @@
     margin-right: 5rem;
 }
 /********************/
+/** parddin ***/
+/********************/
+.p_1{
+    padding: 1rem;
+}
+.p_2{
+    padding: 2rem;
+}
+.p_3{
+    padding: 3rem;
+}
+.p_4{
+    padding: 4rem;
+}
+.p_5{
+    padding: 5rem;
+}
+/********************/
 /** parddin top ***/
 /********************/
 .pt_1{
