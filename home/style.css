@@ -1,18 +1,169 @@
 *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(244, 244, 244);
+}
+.foother{
+    height:300px;
+}
+.writing{
+    margin-right: 5rem;
+    font-size: 1.5rem;
+}
+.img img{
+    border: 15px solid red;
+    outline: 15px seagreen solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.left{
+    position: relative;
+    top: -250px;
+    left: 200px;
+    
+}
+.writing h2{
+    margin-left: 3rem;
+}
+.paretn_left{
+    width: 350px;
+}
+.cmt{
+    font-size: 1.7rem;
+}
+.cmt h4,p{ 
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+.cmt h1{
+    margin-top: 3rem;
+}
+.cmt_ ul li {
+    list-style-type: none;
+    margin-top: .5rem;
+}
+.cmt_ ul li i{
+    margin-right: 1rem;
+}
+.cmt_ ul li a{
+   text-decoration: none;
+}
+.skill ul li{
+    margin-top: .5rem;
+}
+/*****************************/
+/***** right *****************/
+.sertifika li{
+    list-style-type: none;
+    margin-top: .9rem;
+}
+.sertifika li a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
     list-style-type: none;
     word-spacing: 5px;
     letter-spacing: 3px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.container-body{
-    background-image:linear-gradient(200.51deg, rgba(42, 42, 153, 0.158) 0%, rgba(10, 16, 49, 0.6) 80.34%, rgba(12, 12, 12, 0.6) 50.100%),
-     url(/img/resim.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    width: 100%;
-
-}
+ 
 #list_icon{
     display: none;
     font-size: 1.4rem;
@@ -60,18 +211,22 @@
  
 /***********************************/
 /**********************************/
- .row_right{
-    width: 50%;
- }
-.row_left img{
-    width: 390px;
+/* html, body {
+  height: 100%;
+  margin: 0;
 }
-.stil{
-    text-indent: 25px;
-    line-height: 1.5;
+
+.fullscreen-image {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.row_right strong:hover ,strong a:hover{
-    color: aqua;
+
+.fullscreen-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }
 
 
@@ -125,42 +280,7 @@
   
 }
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.bos{
-    height: 250px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 @media only screen and (max-width: 1000px) {
     .right ul li:first-child{
@@ -188,4 +308,4 @@
         z-index: 9999;
     }
 }
-
+  */
