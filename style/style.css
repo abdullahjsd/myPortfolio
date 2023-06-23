@@ -205,20 +205,22 @@ footer{
 }
 .net_right{
     width: 40%;
-    filter: grayscale(50%);
+    margin-top: 5rem;
  }
 .net_right img{
    width: 100%;
-   background-size: cover
+   background-size: cover;
+   filter: grayscale(50%);
+   opacity: .7;
+
 }
-.aksan_right{
-    width: 35%;
- }
-.aksan_right img{
-    width: 100%;
-    background-size: cover
+.radius_one img{
+      border-radius:100px 10px ; 
 }
- 
+.radius_two img{
+    border-radius:10px 100px; 
+}
+
 
 
 
@@ -305,7 +307,15 @@ footer{
         display: flex;
         flex-direction: row-reverse;
     }
+    .net_right{
+        margin-top: 1rem;
+     }
   }
+
+
+
+
+
   @media only screen and (max-width: 480px) {
     .fa-solid{
         margin-right: 1rem;
