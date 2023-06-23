@@ -24,6 +24,7 @@ header{
 }
 .logo img{
     border-radius: 50%;
+    filter: grayscale(100%);
 }
 .logo{
     margin-left: 3rem;
@@ -57,6 +58,9 @@ header{
     background-color: #020a20;
     opacity: .9;
     z-index: 92;
+}
+.a_right img{
+    filter: grayscale(100%);
 }
 .section{
     background-image: url(https://c4.wallpaperflare.com/wallpaper/1001/548/939/binary-code-computer-visual-effects-wallpaper-preview.jpg);
@@ -134,7 +138,8 @@ header{
 
 .social ul li{
     text-align: center;
-    margin-left: 3rem;
+    margin-left: 4rem;
+    font-size:2.6rem;
 }
 .iletisim a{
     color: #524c4c!important;
@@ -212,7 +217,7 @@ footer{
     width: 100%;
     background-size: cover
 }
-
+ 
 
 
 
@@ -284,10 +289,14 @@ footer{
         display: flex;
         justify-content: center;
      }
-     .fa-solid  {
-        font-weight: 400;
-        font-size: 1.5rem;
-
+    .social ul li{
+        margin-left: 2rem;
+        font-size:2rem;
+    }
+    .comment input{
+        width: 100%!important;
+    }
+  
   }
   @media only screen and (max-width: 480px) {
     .fa-solid{
