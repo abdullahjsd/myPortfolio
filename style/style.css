@@ -118,23 +118,30 @@ header{
     width: 90%;
     margin: auto;
     display: flex;
+    justify-content: space-around;
     background: white;
     margin-top: 5rem;
     padding: 5rem 1.5rem;
     border-radius: 25px 0;
+    text-align: start!important;
 }
 .i-parent{
-    width: 25%;
     font-size: 1.3rem;
 }
 .social{
-    width: 75%;
+    width: 50%;
+}
+
+.social ul li{
+    text-align: center;
+    margin-left: 3rem;
 }
 .iletisim a{
     color: #524c4c!important;
     font: 2rem;
     transition: .4s;
     font-weight: bold;
+
 }
 .iletisim a:hover{
     color: #838585!important;
@@ -254,11 +261,33 @@ footer{
         text-align: center;
      }
      .netflix{
-        display: block;
-        text-align: center;
-        width: 100%;
-        margin: auto;
+        display: block!important;
      }
+     .net_left ,.net_right{
+        width: 100%!important;
+     }
+     .footer{
+        display: block;
+     }
+     .bg-blue{
+        width: 100%;
+     }
+     .iletisim{
+        display: block;
+     }
+     .i-parent li{
+        width: 100%;
+        text-align: center;
+     }
+     .social{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+     }
+     .fa-solid  {
+        font-weight: 400;
+        font-size: 1.5rem;
+
   }
   @media only screen and (max-width: 480px) {
     .fa-solid{
